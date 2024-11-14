@@ -1,0 +1,33 @@
+.precos {
+    padding: 10px;
+    margin-top: 90px;
+    margin-left: 10px;
+    display: flex; /* Adiciona layout flex para os itens ficarem lado a lado */
+}
+
+.a, .b, .c, .d {
+    height: 420px;
+    margin-left: 15px;
+    transition: transform 0.3s ease; /* Transição suave para o efeito de aumento */
+    flex: 1; /* Faz com que cada div ocupe o mesmo espaço */
+    cursor: pointer;
+}
+
+.a:hover, .b:hover, .c:hover, .d:hover {
+    transform: scale(1.110); /* Aumenta o tamanho do item em 20% ao passar o mouse */
+}
+.h2__{
+    font-family: "Roboto", serif;
+    margin-left: 40px;
+    margin-top: 80px;
+    font-size: 30px;
+    color: #0033C6;
+}
+.p2__{
+    font-family: "Roboto", serif;
+    margin-left: 40px;
+    margin-top: -20px;
+    font-size: 15px;
+    color: #000000;
+    opacity: 0.6;
+}

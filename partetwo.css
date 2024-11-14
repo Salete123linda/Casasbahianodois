@@ -1,0 +1,33 @@
+.hero{
+    background-color: #0F112E;
+    width: 100%;
+    height: 50px;
+}
+.hero_ul{
+    display: flex;
+    margin-left: 30px;
+    font-family: "Roboto", serif;
+}
+.hero_li{
+    margin-left: 60px;
+    color: aliceblue;
+    list-style: none;
+}
+.um{
+    border: 2px red solid;
+}
+.ul___{
+    display: flex;
+    color: aliceblue;
+    list-style: none;
+}
+.li___{
+    margin-left: 80px;
+    font-size: 13px;
+    font-family: "Roboto", serif;
+}
+.ofertas{
+    margin-top: 60px;
+    margin-left: 90px;
+    cursor: pointer;
+}

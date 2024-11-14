@@ -1,0 +1,133 @@
+body{
+    background: linear-gradient(to bottom, #000229 65%, white 80%);
+}
+
+div{
+    display: flex;
+  }
+.ul_{
+    color: white;
+    display: flex;
+    margin-left: 190px;
+    width: 180vh;
+}
+.ul__{
+    display: flex;
+    margin-right: 100px;
+}
+.li_{
+    margin: 20px;
+    list-style: none;
+    cursor: pointer;
+}
+.li__{
+    margin: 20px;
+    margin-left: 10px;
+    width: 150px;
+    color: white;
+    list-style: none;
+    cursor: pointer;
+}
+.title{
+    font-family: "Kanit", serif;
+    color: white;
+    font-size: 30px;
+    margin-left: 50px;
+    padding: 1px;
+    margin-top: -40px;
+    cursor: pointer;
+}
+.rola{
+    display: flex;
+}
+.Cep{
+    border-radius: 10px;
+    width: 130px;
+    height: 40px;
+    border: none;
+    margin-top: 25px;
+    background-color: #0F112E;
+    border: 1px white solid;
+    color: white;
+    cursor: pointer;
+}
+.foto{
+    width: 13px;
+    height: 13px;
+    filter: invert(1) brightness(2) contrast(100%);
+}
+.barradepesquisa{
+    width: 700px;
+    height: 40px;
+    margin-left: 30px;
+    margin-top: -13px;
+    text-indent: 15px;
+    border-radius: 5px;
+    border: #696969 solid 1px;
+    background-color: #0F112E;
+    color: #fefdfd;
+    background-image: url(fotos/lupabranca.png);
+    background-position: right 15px center;
+    background-size: 25px 25px;
+    background-repeat: no-repeat;
+}
+input::placeholder {
+    color: #fefdfd; /* Cor do texto */
+    font-size: 14px; /* Tamanho da fonte */ 
+  }
+.pessoaicon{
+    filter: invert(1) brightness(2) contrast(100%);
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+    margin-top: 0px;
+}
+.cadastrar{
+    color: white; /* Cor do texto */
+    margin: 0; /* Remove margem padrão */
+    font-size: 15px; /* Tamanho da fonte */
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+}
+.doido{
+    flex-direction: column;
+    margin-left: 20px;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+.hidden-elements {
+    display: none;
+    position: absolute;
+    top: 100%; /* Posiciona logo abaixo do elemento principal */
+    left: 0;
+    top: 40px;
+    background-color: #132035;
+    padding: 10px;
+    border: 1px solid #132035;
+    color: #fefdfd;
+    width: 170px;
+    border-radius: 10px;
+    font-family: "Roboto", sans-serif;
+    cursor: pointer;
+}
+.doido:hover .hidden-elements {
+    display: block;
+}
+.coracao{
+    width: 50px;
+    height: 100%;
+    margin-top: -20px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+.coracao2{
+    width: 60px;
+    height: 100%;
+    margin-top: -24px;
+    margin-left: 15px;
+}
+.pitoca{
+    margin-top: -15px;
+}
